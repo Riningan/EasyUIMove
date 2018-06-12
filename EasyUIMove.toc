@@ -1,0 +1,25 @@
+## Interface: 73500
+## Author: Vadim.Akhmarov
+## Title: EasyUIMove
+## Notes: Change Player UI
+## SavedVariables: UI_SETTINGS
+## Version: 1.0
+
+localization\localization.lua
+localization\localization.ru.lua
+Const.lua
+option\Option.lua
+option\Group.lua
+option\Slider.lua
+option\CheckBox.lua
+option\ComboBox.lua
+option\Text.lua
+General.lua
+Player.lua
+Target.lua
+TargetOfTarget.lua
+Focus.lua
+Focus.lua
+Castbar.lua
+Raid.lua
+EasyUIMove.lua
