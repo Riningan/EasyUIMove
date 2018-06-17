@@ -10,5 +10,7 @@ Such as:
 * Target of Target
 * Focus
 * Casting bar
+* Chat
+* Extra Action Button
 
 Supported client version 7.3.0
