@@ -19,7 +19,7 @@ function Raid:new(pOption)
 			self:SetPosition()
 		end
 	end)
-	self.sld_pos_x = self.group:AddSlider(L.OptionPosX, 20, 2, 180, -2000, 2000, function(pValue)
+	self.sld_pos_x = self.group:AddSlider(L.OptionPosX, 20, 2, 270, -2000, 2000, function(pValue)
 		if InCombatLockdown() then
 			self.sld_pos_x:SetValue(UI_SETTINGS.raid.pos.x)
 			pOption:ShowErrorMessage()
@@ -28,7 +28,7 @@ function Raid:new(pOption)
 			self:SetPosition()
 		end
 	end)
-	self.sld_pos_y = self.group:AddSlider(L.OptionPosY, 220, 2, 180, -2000, 2000, function(pValue)
+	self.sld_pos_y = self.group:AddSlider(L.OptionPosY, 300, 2, 270, -2000, 2000, function(pValue)
 		if InCombatLockdown() then
 			self.sld_pos_y:SetValue(UI_SETTINGS.raid.pos.y)
 			pOption:ShowErrorMessage()

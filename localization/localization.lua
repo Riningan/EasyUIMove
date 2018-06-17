@@ -15,7 +15,9 @@ local L = {
 	TargetOfTarget = 'Target of target',
 	Focus = 'Focus',
 	Castbar = 'Castbar',
+	Chat = 'Chat',
 	Raid = 'Raid',
+	ExtraActionButton = 'Extra action button',
 }
 
 Addon.L = setmetatable(L, { __index = function(t, k) return k end })

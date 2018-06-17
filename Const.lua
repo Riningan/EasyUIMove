@@ -61,4 +61,18 @@ DEFAULT_SETTINGS = {
 			y = 0,
 		},
 	},
+	chat = {
+		anchor = 'BOTTOMLEFT',
+		pos = {
+			x = 0,
+			y = 0,
+		},
+	},
+	extra_action_button = {
+		anchor = 'BOTTOM',
+		pos = {
+			x = 0,
+			y = 270,
+		},
+	},
 }

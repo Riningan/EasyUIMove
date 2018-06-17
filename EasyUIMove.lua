@@ -5,9 +5,11 @@ local option = Option:new()
 local general = General:new(option)
 local player = Player:new(option)
 local target = Target:new(option)
-local target_of_target = TargetOfTarget:new(option)
+local targetOfTarget = TargetOfTarget:new(option)
 local focus = Focus:new(option)
 local castbar = Castbar:new(option)
+local chat = Chat:new(option)
+local extraActionButton = ExtraActionButton:new(option)
 --local raid = Raid:new(option)
 
 
@@ -20,13 +22,21 @@ frame:HookScript('OnEvent', function(pSelf, pEvent, pUnit)
 		if UI_SETTINGS == nil then
 			UI_SETTINGS = DEFAULT_SETTINGS
 		end
+		if UI_SETTINGS.chat == nil then
+			UI_SETTINGS.chat = DEFAULT_SETTINGS.chat
+		end
+		if UI_SETTINGS.extra_action_button == nil then
+			UI_SETTINGS.extra_action_button = DEFAULT_SETTINGS.extra_action_button
+		end
 		
 		general:Init()
 		player:Init()
 		target:Init()
-		target_of_target:Init()
+		targetOfTarget:Init()
 		focus:Init()
 		castbar:Init()
+		chat:Init()
+		extraActionButton:Init()
 		--raid:Init()
 		
 		print(AddonName .. ' loaded')

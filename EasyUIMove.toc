@@ -3,7 +3,7 @@
 ## Title: EasyUIMove
 ## Notes: Change Player UI
 ## SavedVariables: UI_SETTINGS
-## Version: 1.0
+## Version: 1.1
 
 localization\localization.lua
 localization\localization.ru.lua
@@ -22,4 +22,6 @@ Focus.lua
 Focus.lua
 Castbar.lua
 Raid.lua
+Chat.lua
+ExtraActionButton.lua
 EasyUIMove.lua
