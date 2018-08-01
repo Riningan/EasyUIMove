@@ -1,9 +1,9 @@
-## Interface: 73500
+## Interface: 80000
 ## Author: Vadim.Akhmarov
 ## Title: EasyUIMove
 ## Notes: Change Player UI
 ## SavedVariables: UI_SETTINGS
-## Version: 1.1
+## Version: 1.2
 
 localization\localization.lua
 localization\localization.ru.lua

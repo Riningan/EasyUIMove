@@ -32,10 +32,10 @@ end
 
 function General:ShowGryphon()
 	if UI_SETTINGS.general.show_gryphon then
-		MainMenuBarLeftEndCap:Show()
-		MainMenuBarRightEndCap:Show()
+		MainMenuBarArtFrame.LeftEndCap:Show()
+		MainMenuBarArtFrame.RightEndCap:Show()
 	else
-		MainMenuBarLeftEndCap:Hide()
-		MainMenuBarRightEndCap:Hide()
+		MainMenuBarArtFrame.LeftEndCap:Hide()
+		MainMenuBarArtFrame.RightEndCap:Hide()
 	end
 end
