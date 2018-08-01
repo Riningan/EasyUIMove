@@ -13,4 +13,4 @@ Such as:
 * Chat
 * Extra Action Button
 
-Supported client version 7.3.0
+Supported client version 8.0.1
